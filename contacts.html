@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты | Альфа Строй Сервис</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner"><a class="brand" href="./Index.html" aria-label="Альфа Строй Сервис"><img class="brand__logo" src="./image/657107ccad866aa3376bd15db74818fe205b1a6f.png" alt="Логотип Альфа Строй Сервис"><span class="brand__text">Монтаж и обслуживание слаботочных систем</span></a><nav class="nav" aria-label="Основная навигация"><div class="nav__item nav__item--dropdown">
+          <button class="nav__link nav__button" type="button" aria-expanded="false" aria-controls="services-menu">Услуги</button>
+          <div class="dropdown" id="services-menu">
+            <div class="dropdown__group">
+              <p class="dropdown__title">Монтаж</p>
+              <a class="dropdown__link" href="./security-installation.html">Монтаж систем безопасности</a>
+              <a class="dropdown__link" href="./video-surveillance.html">Видеонаблюдение</a>
+              <a class="dropdown__link" href="./access-control.html">Контроль доступа</a>
+              <a class="dropdown__link" href="./fire-safety.html">Системы пожарной безопасности</a>
+              <a class="dropdown__link" href="./structured-cabling.html">Локальные сети (СКС)</a>
+            </div>
+            <div class="dropdown__group">
+              <p class="dropdown__title">Обслуживание</p>
+              <a class="dropdown__link" href="./security-maintenance.html">Обслуживание систем безопасности</a>
+              <a class="dropdown__link" href="./intercom-maintenance.html">Обслуживание домофонов</a>
+              <a class="dropdown__link" href="./video-maintenance.html">Обслуживание видеонаблюдения</a>
+              <a class="dropdown__link" href="./fire-maintenance.html">Обслуживание систем пожарной безопасности</a>
+              <a class="dropdown__link" href="./engineering-dispatch.html">Диспетчеризация инженерных систем</a>
+              <a class="dropdown__link" href="./dispatch-maintenance.html">Обслуживание систем диспетчеризации</a>
+            </div>
+          </div>
+        </div><a class="nav__link" href="./Index.html#about">О нас</a><a class="nav__link" href="./Index.html#projects">Объекты</a><a class="nav__link is-active" href="./contacts.html">Контакты</a></nav><button class="btn" type="button" data-open-callback>Заказать звонок</button></div></header>
+  <main><section class="page-hero page-hero--contacts"><div class="container page-hero__grid"><div class="page-hero__content"><p class="eyebrow">Связь с компанией</p><h1>Контакты</h1><p>Оставьте заявку на звонок или используйте эту страницу как основу для будущих телефона, почты и адреса офиса.</p><button class="btn" type="button" data-open-callback>Заказать звонок</button></div><div class="page-hero__visual"><img src="./image/657107ccad866aa3376bd15db74818fe205b1a6f.png" alt="Логотип Альфа Строй Сервис"></div></div></section><section class="section"><div class="container contacts-layout"><div class="contact-panel"><h2>Как мы работаем</h2><p>Вы описываете задачу, мы уточняем параметры объекта, предлагаем состав работ и согласуем удобное время для консультации или выезда специалиста.</p><button class="btn" type="button" data-open-callback>Оставить заявку</button></div><div class="contact-panel contact-panel--soft"><h2>Направления</h2><ul class="check-list"><li>Монтаж систем безопасности</li><li>Видеонаблюдение и контроль доступа</li><li>Пожарная безопасность и диспетчеризация</li><li>Обслуживание и техническая поддержка</li></ul></div></div></section></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="./Index.html">Альфа Строй Сервис</a><p>Монтаж, обслуживание и диспетчеризация систем безопасности.</p><button class="btn btn--small" type="button" data-open-callback>Заказать звонок</button></div></footer>
+  <div class="modal" id="callback-modal" aria-hidden="true"><div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="callback-title"><button class="modal__close" type="button" aria-label="Закрыть форму" data-close-callback>&times;</button><h2 id="callback-title">Заказать звонок</h2><p>Заполните форму, и мы подготовим обратный звонок по вашему запросу.</p><form class="callback-form" id="callback-form"><label class="field"><span>Имя</span><input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required></label><label class="field"><span>Телефон</span><input type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required></label><label class="field"><span>Комментарий</span><textarea name="message" placeholder="Коротко опишите задачу"></textarea></label><button class="btn btn--wide" type="submit">Отправить заявку</button><div class="form-status" role="status" aria-live="polite"></div></form></div></div>
+  <script src="js/site.js"></script>
+</body>
+</html>
